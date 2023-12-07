@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to ChaleyDoAm</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/welcome.css') }}">
+</head>
+
+<body>
+    <div id="page1" class="page">
+        <div class="container">
+            <h1>Welcome to ChaleyDoAm</h1>
+            <p>A task management app to help you stay organized and productive.</p>
+            <!-- <br><br><br><br><br> -->
+            <div class="slideshow">
+                <div style="position: relative; width: 100%; height: 0; padding-top: 56.2225%;
+                padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+                border-radius: 8px; will-change: transform;">
+                           <iframe loading="lazy"
+                               style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+                               src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF1ipK1krY&#x2F;view?embed"
+                               allowfullscreen="allowfullscreen" allow="fullscreen">
+                           </iframe>
+                       </div>
+            </div>
+            <!-- <a href="#" class="btn">Get Started</a> -->
+    
+            <!-- <img src="/app/static/images/background.jpg" alt="picture"> -->
+
+            <!-- <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF1ipK1krY&#x2F;view?utm_content=DAF1ipK1krY&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" -->
+                <!-- target="_blank" rel="noopener">Tech Website in Teal White Navy Gradients Style</a> by segmented79 -->
+    
+                <a href="/create_task/" class="btn">Get Started</a>
+        </div>
+    </div>
+    <div id="page2" class="page">
+        <div class="tutorial-cards">
+            <div class="card">
+                <img src="https://via.placeholder.com/200" alt="Tutorial Card 1">
+                <h2>Intuitive Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/200" alt="Tutorial Card 2">
+                <h2>Convenient Planning</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/200" alt="Tutorial Card 3">
+                <h2>Tailored to Your Needs</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </div>
+    <!-- <div id="page3" class="page"></div> -->
+    <div id="page4" class="page">
+    <!-- BEGIN: contact-us-section -->
+    <div id="page7" class="page">
+        <div class="container contact_us">
+            <h1>Contact Us</h1>
+            <p>Have any questions or feedback? We'd love to hear from you!</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <span><input type="text" id="name" name="name" placeholder="Your name"></span>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Your message"></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+    <!-- END: contact-us-section -->
+    </div>
+   
+</body>
+
+</html>
