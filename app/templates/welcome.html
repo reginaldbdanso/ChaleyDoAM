@@ -9,8 +9,9 @@
 </head>
 
 <body>
-    <div id="page1" class="page">
+    <div id="page1" class="page my_bg">
         <div class="container">
+            <!-- <img src="{{ url_for('static', filename='images/bckground1.png') }}" alt=""> -->
             <h1>Welcome to ChaleyDoAm</h1>
             <p>A task management app to help you stay organized and productive.</p>
             <!-- <br><br><br><br><br> -->
@@ -31,30 +32,49 @@
 
             <!-- <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF1ipK1krY&#x2F;view?utm_content=DAF1ipK1krY&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" -->
                 <!-- target="_blank" rel="noopener">Tech Website in Teal White Navy Gradients Style</a> by segmented79 -->
-    
+                <a href="#page2" class="btn">Features</a>
                 <a href="/create_task/" class="btn">Get Started</a>
+                <a href="#page3" class="btn">About</a>
         </div>
     </div>
     <div id="page2" class="page">
+        
         <div class="tutorial-cards">
             <div class="card">
-                <img src="https://via.placeholder.com/200" alt="Tutorial Card 1">
-                <h2>Intuitive Design</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <img src="{{ url_for('static', filename='images/edit_feature.png') }}" alt="Tutorial Card 1">
+                <h2>Edit Feature</h2>
+                <p>Made a mistake? Don't stress. You can easily edit your tasks just by clicking this button.</p>
             </div>
             <div class="card">
-                <img src="https://via.placeholder.com/200" alt="Tutorial Card 2">
-                <h2>Convenient Planning</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <img src="{{ url_for('static', filename='images/delete_feature.png') }}" alt="Tutorial Card 2">
+                <h2>Delete Feature</h2>
+                <p>Maybe you've changed your mind and no longer want to add that particular task to your list. This button will come in handy.</p>
             </div>
             <div class="card">
-                <img src="https://via.placeholder.com/200" alt="Tutorial Card 3">
-                <h2>Tailored to Your Needs</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <img src="{{ url_for('static', filename='images/export_feature.png') }}" alt="Tutorial Card 3">
+                <h2>Export Feature</h2>
+                <p>Take your tasks with you wherever you go and on which ever device you want. This feature produces a calendar file.
+                    This file is useful for sharing your tasks with others or for importing your tasks into another calendar app.</p>
+                </p>
             </div>
         </div>
     </div>
-    <!-- <div id="page3" class="page"></div> -->
+    <div id="page3" class="page">
+        <div class="container">
+            <hr>
+            <h1>About</h1>
+            <div class="container">
+            <p>ChaleyDoAm is a task management app that helps you stay organized and productive. It is a simple and easy to use app that allows you to create tasks and manage them.</p>
+            <p>ChaleyDoAm is a project created by a group of students from the ALX SE program. It was created as part of a Software Engineering course.</p>
+            <p>ChaleyDoAm is a Pidgin word that means "Bro do it".</p>
+            <p>ChaleyDoAm is a free app that is available to anyone who wants to use it.</p>
+            <p>ChaleyDoAm is a web app that can be accessed from any device that has an internet connection.</p>
+            <br>
+            <a href="https://github.com/reginaldbdanso/ChaleyDoAM">Github</a>
+            <br><br><hr>
+        </div>
+        </div>
+    </div>
     <div id="page4" class="page">
     <!-- BEGIN: contact-us-section -->
     <div id="page7" class="page">
